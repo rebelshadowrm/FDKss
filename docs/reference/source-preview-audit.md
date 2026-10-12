@@ -1,6 +1,6 @@
 # Source preview publication audit
 
-Audited October 12, 2026 for **0.3.0-preview.1**. This is an experimental
+Audited October 12, 2026 for **0.3.0-preview.2**. This is an experimental
 source publication, with no binary release or new live-game acceptance.
 
 ## Reproducible checks
@@ -18,6 +18,13 @@ source publication, with no binary release or new live-game acceptance.
   portable skills, dependency notices and resolved local Markdown links.
 - Three portable skills passed the skill metadata validator. Their procedures
   are guidance; following one does not itself establish runtime acceptance.
+
+## Clean-checkout correction
+
+The initial preview CI caught a schema-patch hash failure caused by automatic
+line-ending conversion. `.gitattributes` now preserves exact schema provenance
+bytes; source identities are checked against a clean Git checkout. The original
+preview is superseded by this corrected preview. Hash verification remains strict.
 
 ## Publication boundary
 

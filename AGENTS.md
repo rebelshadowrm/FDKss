@@ -2,12 +2,12 @@
 
 Read README.md, CONTRIBUTING.md and the relevant public guide before changing a
 capability. ROADMAP.md owns public priorities; docs/reference/supports.md and
-features.md distinguish implementation from research and plans.
+docs/reference/features.md distinguish implementation from research and plans.
 
 Build/test with the documented toolchain. Run affected checks while developing
 and clean configure/build/CTest for publication. Public tests use synthetic inputs
 and generated numerical cases. Private original-code checks are opt-in; see
- tests/fixtures/README.md. A public pass is not live game acceptance.
+tests/fixtures/README.md. A public pass is not live game acceptance.
 
 Retain exact executable/body validation and unknown-build refusal. Shared RTTI,
 pointer readability, a worker join or successful injection do not prove receiver

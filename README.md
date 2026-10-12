@@ -1,6 +1,6 @@
 # FDKss
 
-**Experimental source preview (0.3.0-preview.1).** This publication is for
+**Experimental source preview (0.3.0-preview.2).** This publication is for
 developers building from source, not a general-user binary release. Current work
 is shared combat observation/replay design and unresolved cross-game ownership;
 see the [roadmap](ROADMAP.md) and [per-game support matrix](docs/reference/supports.md).

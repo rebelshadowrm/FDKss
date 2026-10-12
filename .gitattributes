@@ -1,0 +1,2 @@
+# Preserve exact upstream/schema provenance bytes, including original line endings.
+/tools/schemas/** -text
