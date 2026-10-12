@@ -1,0 +1,49 @@
+{
+	"FALCOM_PS4": {
+		"game": "Kuro1",
+		"schema": {
+			"quartz_id": "ushort",
+			"earth_sepith_cost": "ushort",
+			"water_sepith_cost": "ushort",
+			"fire_sepith_cost": "ushort",
+			"wind_sepith_cost": "ushort",
+			"time_sepith_cost": "ushort",
+			"space_sepith_cost": "ushort",
+			"mirage_sepith_cost": "ushort",
+			"earth_elemental_amount": "ubyte",
+			"water_elemental_amount": "ubyte",
+			"fire_elemental_amount": "ubyte",
+			"wind_elemental_amount": "ubyte",
+			"time_elemental_amount": "ubyte",
+			"space_elemental_amount": "ubyte",
+			"mirage_elemental_amount": "ubyte",
+			"byte1": "byte",
+			"int1": "int"
+		}
+	},
+	"FALCOM_PC_2": {
+		"game": "Sora2",
+		"schema": {
+			"item_id": "ushort",
+			"equip_dupe_restriction": "int",
+			"empty1": "short",
+			"text1": "toffset",
+			"slot_level_restriction": "short",
+			"synthesis_cost_earth": "ushort",
+			"synthesis_cost_water": "ushort",
+			"synthesis_cost_fire": "ushort",
+			"synthesis_cost_wind": "ushort",
+			"synthesis_cost_time": "ushort",
+			"synthesis_cost_space": "ushort",
+			"synthesis_cost_mirage": "ushort",
+			"quartz_element_earth": "ubyte",
+			"quartz_element_water": "ubyte",
+			"quartz_element_fire": "ubyte",
+			"quartz_element_wind": "ubyte",
+			"quartz_element_time": "ubyte",
+			"quartz_element_space": "ubyte",
+			"quartz_element_mirage": "ubyte",
+			"empty2": "ubyte"
+		}
+	}
+}

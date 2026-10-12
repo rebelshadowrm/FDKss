@@ -1,0 +1,191 @@
+{
+  "format": "fdkss.peer_integrations",
+  "version": 2,
+  "FalcomSchema": {
+    "upstream": "https://github.com/Trails-Research-Group/FalcomSchema",
+    "revision": "7a545e7205b2067990005d15518285456e66d1c9",
+    "license": "MIT; schemas/falcom/LICENSE.txt",
+    "source": "schemas/falcom/{ys_X,ed9_Daybreak1,ed9_Daybreak2,common}",
+    "modifications": "228 upstream files unchanged; validated corrections maintained in local fork and pinned reconstructible patch under schemas/overrides",
+    "integration": "Seven explicit table profiles via table_inspect/table_coverage/table_edit; same-game KuroTools extension",
+    "unknown_policy": "Preserve raw records and trailing bytes; do not substitute another game's schema",
+    "limits": "Unknown/mismatched sections stay raw. Serialized annotations/editing do not prove gameplay semantics or native loading.",
+    "fork": {
+      "base": "7a545e7205b2067990005d15518285456e66d1c9",
+      "revision": "801315b51bbc5933e9f3974fbfffb64e99726ea2",
+      "branch": "fdkss/offline-table-layouts",
+      "remote": "https://github.com/rebelshadowrm/FalcomSchema",
+      "patch": "schemas/overrides/daybreak-layouts.patch",
+      "patch_sha256": "6928a7366f7ceca99b9843df58b8e08f92a4bc822c495333eb903ed392e15708"
+    }
+  },
+  "PH3": {
+    "upstream": "https://github.com/ph3at/p3a-format",
+    "revision": "8bd31f36a9bb4a3cfaf1dc186eae8d1e6174243b",
+    "license": "MIT; licenses/p3a-format-MIT.txt",
+    "integration": "p3a_access.py bounded full/selected extraction; archive_workflow.py copied packing/verification and tool-only benchmarks",
+    "tool": "User-installed p3a_tool.exe; explicit path, observed hash and invocation recorded per run; binary is not redistributed",
+    "limits": "v1200; configured bounded access and copied packages. Native overlays/loading/cache contention unverified.",
+    "fork": "not created; upstream format reference, not Archivist source"
+  },
+  "KuroTools": {
+    "upstream": "https://github.com/nnguyen259/KuroTools",
+    "revision": "8b568364232d6a51b03b85b7ed7723f6a1218750",
+    "license": "MIT; unchanged 287 header files and notice in schemas/kurotools",
+    "integration": "Pinned explicit-game schema extensions across seven profiles; external independent table authoring comparison.",
+    "invocation": [
+      "python",
+      "PINNED_KUROTOOLS/tbl2json.py",
+      "-g",
+      "Ys_X",
+      "COPIED_TABLE/t_item.tbl"
+    ],
+    "working_directory": "Isolated comparison workspace with copied upstream schema metadata; output stays there",
+    "limits": "Upstream can mutate encrypted inputs and fall back to a different game's schema by record size; use validated unencrypted copies and confirm selected schema",
+    "fork": "not created; source metadata unchanged; no foreign-game fallback in FDKss"
+  },
+  "kuro_mdl_tool": {
+    "upstream": "https://github.com/eArmada8/kuro_mdl_tool",
+    "revision": "e44f0990604bbd3fa5b40b85458cd15313a56a75",
+    "license": "GPL-3.0 upstream; external source is not incorporated or redistributed",
+    "integration": "External peer_model_workflow: real MDL v1/v2/v4 mesh and JSON/glTF motion roundtrips; D9BA; explicit material switch edit; shader_compare across seven profiles.",
+    "invocations": [
+      [
+        "python",
+        "PINNED_KURO_MDL/kuro_mdl_export_meshes.py",
+        "COPIED_MODEL.mdl"
+      ],
+      [
+        "python",
+        "PINNED_KURO_MDL/kuro_mdl_import_meshes.py",
+        "COPIED_MODEL.mdl"
+      ],
+      [
+        "python",
+        "compare_mdl.py",
+        "ORIGINAL_MODEL.mdl",
+        "COPIED_MODEL.mdl",
+        "--output",
+        "NEW_COMPARISON.json"
+      ]
+    ],
+    "limits": "v1/v2 mesh sections byte-compared; v4 independently typed. Sampled glTF poses, counted SNORM endpoint/collision rebuild changes. Encryption/native rendering/loading/collision/clocks/blending unverified.",
+    "fork": "not created; original external source unchanged; version/track-word restoration and comparisons implemented independently in FDKss",
+    "dependencies": "external-model-requirements.txt"
+  },
+  "FPACker": {
+    "upstream": "https://github.com/coinkillerl/FPACker",
+    "revision": "6589cd1935f6b2c6e45999bbe653e0e1dfc07c1e",
+    "license": "No top-level license at assessed revision; source incorporation deferred",
+    "integration": "External unmodified build invoked through archive_workflow.py; copied font and edited Sky model package content verified",
+    "limits": "One asset root, bounded isolated packaging; native lookup/loading unverified. Source/binary incorporation and redistribution deferred for unresolved license.",
+    "fork": "not created; trigger is persistent licensed packing integration",
+    "tool": {
+      "build": "WSL Ubuntu gcc -std=gnu11 -O2; main.c common.c util.c unpacker.c packer.c strnatcmp.c",
+      "sha256": "7d8e938123cfc922bb6483be3dde89a9e6e5b55093b66f1fbe3ce29380e7f318"
+    }
+  },
+  "Sora2-Details": {
+    "upstream": "https://github.com/rebelshadowrm/Sora2-Details",
+    "revision": "ce03a918b0ae81824087c7a5d7cfc95d48db5844",
+    "license": "MIT; upstream LICENSE; preserve notice if incorporating source",
+    "source_policy": "Prefer user local checkout and preserved raw logs; modified/untracked research and ignored traces require selected-file SHA-256 in addition to HEAD",
+    "assessed_file_sha256": {
+      "LICENSE": "dfaf85d5db70c016daa427bb0bc21df76d450d669eab6e4c2150fd8187895372",
+      "docs/SESSION-LOGGER.md": "8c2a92a88e501187ff37880cfcf8dcabae289e5cee1b38218155082983cd5e01",
+      "docs/NATIVE-OBSERVER-VIABILITY-20261003.md": "ecd7a6000b7e28478d98a6b3f73cec380e55d4306782e02259e46b9ca1f75300",
+      "docs/CAPTURE-COMPLETENESS-AUDIT-20261003.md": "fb47903a4a40036a3fe3ef7db1e980a56a763fda11d354d98d439efcc9cdf8d0",
+      "src/Sora2.Details.Core/CombatModels.cs": "4e85928fee3d5aa39e0b31be629e10ae1269551b1267fed1edcc02efda98bb25",
+      "src/Sora2.Details.Core/CaptureMessageCodec.cs": "0719ab4d62ed46b198d85a25979572083e0ac3f8c9a6e3370e2115d3659ac87a",
+      "src/Sora2.Details.Core/EncounterReplay.cs": "30e910f03295a3c940f5b31a1a8bc5120ff876986895bf4b8670b79622003c24",
+      "src/Sora2.Details.Core/EncounterProjection.cs": "1e2f73c2ffab3df14694943a2d002e19d4a526ff83bfc887fdf7f6bc08ecc0d0"
+    },
+    "integration": "Existing exact-build research informed Sky2 resource/status work; registered as runtime research peer and downstream Details consumer, not an asset tool dependency",
+    "trigger": "Named combat/resource/status/action/animation research or Details consumer; consult local evidence before repeating discovery",
+    "limits": "Raw traces and partial projections do not establish complete combat coverage or callable ABI/thread/lifetime contracts. Historical pointers/PIDs are not live identity. No new source incorporation or native acceptance in this registration.",
+    "fork": "not created; user-owned project; no peer source patches made",
+    "planned_consumer": "Shared observation/recording/replay core; Details visualization. Preserve adapter-specific Sky semantics."
+  },
+  "ED9ModManager": {
+    "upstream": "https://github.com/lom2333/ED9ModManager",
+    "revision": "d20ca677181a765970d8ab5720739cb54e61e32d",
+    "license": "PolyForm Noncommercial 1.0.0; source kept separate",
+    "integration": "Source assessed; hosted fork created; not integrated or runtime accepted",
+    "purpose": "Native script/event and patch-composition research",
+    "fork": {
+      "remote": "https://github.com/rebelshadowrm/ED9ModManager",
+      "branch": "2ND",
+      "revision": "d20ca677181a765970d8ab5720739cb54e61e32d",
+      "patches": "none"
+    },
+    "next_step": "Independently compare LoadScript/SpawnEvent against pinned Sky originals; establish receiver/ABI/ownership/unload.",
+    "limits": "No safe runtime lifetime, all-game compatibility or complete combat coverage established.",
+    "assessed_file_sha256": {
+      "src/ed9loader_api.h": "ce35cad6da7a88e71a7ab86724d9943544ce57d5b9b2dcacc3c36f6b833d5d59",
+      "src/plugin_loader.cpp": "31e020624917ac1237a354b334369121331e00b5134cdf4f58c11ec2d009c1fe",
+      "src/runtime_locator.cpp": "d9a796649e06ba35302de07f806e55eccb12f1b0d406b8237e8d848c7adb8eed",
+      "src/symbol_table.cpp": "5b5170fb9ab6cd146bb31235c8841420efab8a4ef1218c858b9ea036910a2a33",
+      "src/rva/sora_2nd.json": "40f511c77f8ce0bfef2b8e88a277de57dc854f8e0cfee2f5430e594d0c0fbe63",
+      "examples/script_inject/script_inject.cpp": "589915debb3427b2e230b496f8ac1c86400ce391d37027d260c7f829870520ce",
+      "LICENSE": "b71d4190c9168b0ce5a16ee804a0f72ff0fcaef219f771e07daa2a4e6cdd1998"
+    },
+    "usefulness": "Retain existing peer/fork; concrete Sky script/event and RTTI/symbol recovery leads. Selected pointers and native signatures require independent verification.",
+    "bottleneck_assessment": "Helps call/discovery prerequisites; inspected source does not prove PN producer completion, receiver retention, cancellation or ABA safety.",
+    "validation": "Pinned source review; no peer loader or plugin installed/executed",
+    "limitations_detail": "find_instance returns a candidate pointer, not a leased/generation-safe handle. Some symbol entries have no signature; examples include hardcoded RVAs. Ed9Api is distinct from FDKss plugin ABI."
+  },
+  "Ingert": {
+    "upstream": "https://github.com/Aureole-Suite/Ingert",
+    "revision": "087ba207a4fa6669ce4b1bae44faf43ea298405f",
+    "license": "No top-level license found; clarify before incorporation/redistribution",
+    "integration": "Source assessed; hosted fork created; not integrated or runtime accepted",
+    "purpose": "External DAT/ING authoring candidate",
+    "fork": {
+      "remote": "https://github.com/rebelshadowrm/Ingert",
+      "branch": "main",
+      "revision": "087ba207a4fa6669ce4b1bae44faf43ea298405f",
+      "patches": "none"
+    },
+    "next_step": "Validate pinned external build and bounded copied-script roundtrips independently.",
+    "limits": "No safe runtime lifetime, all-game compatibility or complete combat coverage established."
+  },
+  "SoraSaveSlots": {
+    "upstream": "https://github.com/Bestfast/SoraSaveSlots",
+    "revision": "7079af422ae2a86710dc93677192414f13ecc936",
+    "license": "No top-level license found at assessed revision; source/binary incorporation and redistribution deferred",
+    "assessed_file_sha256": {
+      "README.md": "1e82f49c88d5523bac0cd8ef95bb1684502ee09d7947cdc6114eaa7f3329212e",
+      "src/core.cpp": "427e20b934957cd2b17bc98d87f577f0e36329b59efe3a2058e60f9c9a4f904d",
+      "src/core.h": "1ada02b9dfceb2628a4895fbfcbcba562d64cd8fbd85e695252ad365c390f625",
+      "src/sora1.cpp": "07fb1b7dfa5fb2d77c27c3ec352a093f06dd08d390a78f26a80fc50b5b3c34ce",
+      "src/sora2.cpp": "fc40bd349deba5107c1b5a827016dc9a8b8e99934cfe282c0b6552f7680a5d3a",
+      "src/dllmain.cpp": "0bc7a44ec88204ca490c7729643ffe8357889c06365337a24fb82b5f5818fc96"
+    },
+    "integration": "Registered research reference for shared mechanisms plus explicit per-game adapters and original-byte verification; no plugin installation or source incorporation",
+    "validation": "Read-only full .text match inventory on both pinned Sky executables matches selected resolver counts; this does not execute patches or verify callable ABI",
+    "trigger": "Save-accessor research, build-profile design or patch-transaction/coexistence work",
+    "bottleneck_assessment": "Indirect architecture/patch-verification reference; no PN Actor lifetime or asynchronous producer proof",
+    "limits": "scanText stops at the requested maximum so resolver counts cannot detect excess matches; sequential hook installation can fail after earlier writes without an inspected rollback. Backing replacement, save compatibility and unload safety are unverified in FDKss.",
+    "fork": "not created; reference only; require licensing resolution and a concrete patch consumer before incorporation"
+  },
+  "sora2looseload": {
+    "upstream": "https://github.com/lmaple0/sora2looseload",
+    "revision": "745cf903bee976b72ad84c200a71e9137d666261",
+    "license": "MIT; external LICENSE; no upstream source or proxy binary incorporated",
+    "assessed_file_sha256": {
+      "tools/verify_target.py": "d7faeeafdc2faccd4be4855b93b07d78d6ea5f85f2ff87662fa15c70fa741df3",
+      "tools/test_verify_target.py": "f9c985a5120c2e1bfb3a612207d7e17418098bbfc8e66feeb3d3b27ed136e347",
+      "dllmain.cpp": "cc69c175ecfc07c3b436ebb7bb512cd18ef3b1665fa79738239768b2499d5950",
+      "LICENSE": "b3b387e5d2e42eff050d49d8e5cda88c80860c9791bba3831cfddeffc7179423"
+    },
+    "validated_builds": [
+      "d8b2911d1576216bdc22d070550e4f531e105de7ed2981885849669f4acf8aaf"
+    ],
+    "integration": "peer_runtime_preflight.py invokes the unchanged pinned external verifier from an isolated workspace and records identities/static limits",
+    "validation": "Pinned Sky2 file-check/locale/debug patterns each unique; XInput ordinals 2 and 3; four upstream matcher checks pass",
+    "trigger": "Sky2 loose-file/coexistence preflight and exact signature recovery; consult before adding another XInput proxy",
+    "bottleneck_assessment": "Indirect signature and hook-transaction reference; does not establish PN ownership, combat event semantics or safe arbitrary native calls",
+    "limits": "Static original-file compatibility only. DebugLogger is a formatted optional diagnostic and does not forward its saved original; no combat feed or observer-preservation claim. Existing FDKss overlays already cover relevant file workflows; proxy composition requires independent live acceptance.",
+    "fork": "not created; unchanged external verifier needs no maintained fork; persistent licensed patches trigger one"
+  }
+}

@@ -1,0 +1,4 @@
+# Independent P3A header and extracted-file checks (PH3 CLI remains external).
+xxhash==4.0.1
+lz4==4.4.5
+zstandard==0.25.0

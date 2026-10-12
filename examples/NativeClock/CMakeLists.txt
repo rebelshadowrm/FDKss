@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.24)
+project(NativeClock LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 20)
+set(FDKSS_INCLUDE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../../include" CACHE PATH "FDKss SDK include directory")
+add_library(NativeClock SHARED main.cpp)
+target_include_directories(NativeClock PRIVATE "${FDKSS_INCLUDE_DIR}")
+set_target_properties(NativeClock PROPERTIES OUTPUT_NAME main)

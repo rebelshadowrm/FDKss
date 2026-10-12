@@ -1,0 +1,22 @@
+{
+  "format": "fdkss.schema_overlays",
+  "version": 1,
+  "upstream_base": "FalcomSchema 7a545e7205b2067990005d15518285456e66d1c9",
+  "fork": "https://github.com/rebelshadowrm/FalcomSchema",
+  "profiles": {
+    "daybreak2": {
+      "NPCParam": {
+        "file": "daybreak2-NPCParam.json",
+        "sha256": "757219ef8978f0239337628ed5686a9a4f171c6a8b99a2c2dff94843a82bfc3b",
+        "record_size": 152,
+        "basis": "Independent bounded raw-byte inspection across 49 installed English tables/9190 records. Existing peer NPC layout has moved fields; unknown fields retain neutral names.",
+        "gameplay_semantics_verified": false
+      }
+    }
+  },
+  "fork_revision": "801315b51bbc5933e9f3974fbfffb64e99726ea2",
+  "fork_branch": "fdkss/offline-table-layouts",
+  "patch_file": "daybreak-layouts.patch",
+  "patch_sha256": "6928a7366f7ceca99b9843df58b8e08f92a4bc822c495333eb903ed392e15708",
+  "fork_reconstruction": "Checkout upstream_base; git am daybreak-layouts.patch. Preserve MIT notices and FDKss-layout-provenance.json."
+}

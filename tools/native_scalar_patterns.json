@@ -1,0 +1,272 @@
+[
+  {
+    "operation_candidate": "absolute_value",
+    "body_hex": "837a70007707b800000040eb1648634a64488b42588b4401fc8bc8c1e91e83f90175288d048500000000c1f8028bc8f7d90f48c881e1ffffff3f0fbae91e80ba80000000007443894a14c3440fb6828000000083f90275268d048500000000660f6ec00f540566064400660f7ec0c1e8020fbae81f4584c07410894214c34584c07407c7421400000040c3",
+    "fields": {
+      "argument_count": [
+        [
+          2,
+          1
+        ]
+      ],
+      "stack_used_bytes": [
+        [
+          16,
+          1
+        ]
+      ],
+      "stack_pointer": [
+        [
+          20,
+          1
+        ]
+      ],
+      "return_enabled": [
+        [
+          64,
+          4
+        ],
+        [
+          79,
+          4
+        ]
+      ],
+      "result_register": [
+        [
+          73,
+          1
+        ],
+        [
+          124,
+          1
+        ],
+        [
+          133,
+          1
+        ]
+      ]
+    },
+    "external_operand": [
+      "sign_mask",
+      102
+    ]
+  },
+  {
+    "operation_candidate": "minimum",
+    "body_hex": "448b42704c8bd2b8000000404585c0750a8bc841b801000000eb3748634a64488b52588b5411fc8bca4183f801770841b801000000eb1b49634a64498b42588b4401f8448bc041c1e81e8bca4183f802744b448bc941c1e91e4183f902743e33d24183f901750e448d0c8d0000000041c1f902eb03448bca4183f8017514448d04850000000041c1f802453bc80f9cc2eb72443bca448bc20f9cc2eb678bd10f57c0c1ea1e83fa02750d8d148d00000000660f6ecaeb1b83fa0175138d148d00000000c1fa02660f6eca0f5bc9eb030f57c94183f802750d8d148500000000660f6ec2eb174183f80175118d148500000000c1fa02660f6ec20f5bc033d20f2fc10f97c24180ba8000000000740985d20f45c141894214c3",
+    "fields": {
+      "argument_count": [
+        [
+          3,
+          1
+        ]
+      ],
+      "stack_used_bytes": [
+        [
+          30,
+          1
+        ],
+        [
+          58,
+          1
+        ]
+      ],
+      "stack_pointer": [
+        [
+          34,
+          1
+        ],
+        [
+          62,
+          1
+        ]
+      ],
+      "return_enabled": [
+        [
+          263,
+          4
+        ]
+      ],
+      "result_register": [
+        [
+          278,
+          1
+        ]
+      ]
+    },
+    "external_operand": null
+  },
+  {
+    "operation_candidate": "maximum",
+    "body_hex": "448b42704c8bd2b8000000404585c0750a8bc841b801000000eb3748634a64488b52588b5411fc8bca4183f801770841b801000000eb1b49634a64498b42588b4401f8448bc041c1e81e8bca4183f802744b448bc941c1e91e4183f902743e33d24183f901750e448d0c8d0000000041c1f902eb03448bca4183f8017514448d04850000000041c1f802453bc80f9fc2eb72443bca448bc20f9fc2eb678bd10f57c0c1ea1e83fa02750d8d148d00000000660f6ecaeb1b83fa0175138d148d00000000c1fa02660f6eca0f5bc9eb030f57c94183f802750d8d148500000000660f6ec2eb174183f80175118d148500000000c1fa02660f6ec20f5bc033d20f2fc80f97c24180ba8000000000740985d20f45c141894214c3",
+    "fields": {
+      "argument_count": [
+        [
+          3,
+          1
+        ]
+      ],
+      "stack_used_bytes": [
+        [
+          30,
+          1
+        ],
+        [
+          58,
+          1
+        ]
+      ],
+      "stack_pointer": [
+        [
+          34,
+          1
+        ],
+        [
+          62,
+          1
+        ]
+      ],
+      "return_enabled": [
+        [
+          263,
+          4
+        ]
+      ],
+      "result_register": [
+        [
+          278,
+          1
+        ]
+      ]
+    },
+    "external_operand": null
+  },
+  {
+    "operation_candidate": "square_root",
+    "body_hex": "40534883ec20837a7000488bda7707b800000040eb2848634a64488b42588b4401fc8bc8c1e91e83f902750d8d048500000000660f6ec8eb1b83f90175138d048500000000c1f802660f6ec80f5bc9eb030f57c90f57c00f2ec177090f57c0f30f51c1eb080f28c1e81b8f3800660f7ec0c1e8020fbae81f80bb800000000074038943144883c4205bc3",
+    "fields": {
+      "argument_count": [
+        [
+          8,
+          1
+        ]
+      ],
+      "stack_used_bytes": [
+        [
+          25,
+          1
+        ]
+      ],
+      "stack_pointer": [
+        [
+          29,
+          1
+        ]
+      ],
+      "return_enabled": [
+        [
+          122,
+          4
+        ]
+      ],
+      "result_register": [
+        [
+          131,
+          1
+        ]
+      ]
+    },
+    "external_operand": [
+      "negative_domain_call",
+      105
+    ]
+  },
+  {
+    "operation_candidate": "unary_float_call",
+    "body_hex": "40534883ec20837a7000488bda7707b800000040eb2848634a64488b42588b4401fc8bc8c1e91e83f902750d8d048500000000660f6ec0eb1b83f90175138d048500000000c1f802660f6ec00f5bc0eb030f57c0e8b7893800660f7ec0c1e8020fbae81f80bb800000000074038943144883c4205bc3",
+    "fields": {
+      "argument_count": [
+        [
+          8,
+          1
+        ]
+      ],
+      "stack_used_bytes": [
+        [
+          25,
+          1
+        ]
+      ],
+      "stack_pointer": [
+        [
+          29,
+          1
+        ]
+      ],
+      "return_enabled": [
+        [
+          102,
+          4
+        ]
+      ],
+      "result_register": [
+        [
+          111,
+          1
+        ]
+      ]
+    },
+    "external_operand": [
+      "crt_math",
+      85
+    ]
+  },
+  {
+    "operation_candidate": "binary_float_call",
+    "body_hex": "40534883ec20448b4270488bdab8000000400f57c94585c075048bc8eb2848635264488b4b588b4c0afc8bd1c1ea1e83fa02750d8d0c8d00000000660f6ec1eb1b83fa0175138d0c8d00000000c1f902660f6ec10f5bc0eb030f57c04183f801762848634b64488b43588b4401f88bc8c1e91e83f902750d8d048500000000660f6ec8eb1683f90175118d048500000000c1f802660f6ec80f5bc9e890783800660f7ec0c1e8020fbae81f80bb800000000074038943144883c4205bc3",
+    "fields": {
+      "argument_count": [
+        [
+          9,
+          1
+        ]
+      ],
+      "stack_used_bytes": [
+        [
+          33,
+          1
+        ],
+        [
+          101,
+          1
+        ]
+      ],
+      "stack_pointer": [
+        [
+          37,
+          1
+        ],
+        [
+          105,
+          1
+        ]
+      ],
+      "return_enabled": [
+        [
+          173,
+          4
+        ]
+      ],
+      "result_register": [
+        [
+          182,
+          1
+        ]
+      ]
+    },
+    "external_operand": [
+      "crt_math",
+      156
+    ]
+  }
+]

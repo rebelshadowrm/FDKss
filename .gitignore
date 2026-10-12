@@ -1,0 +1,39 @@
+/build*/
+/.cache/
+/dist/
+__pycache__/
+*.log
+
+# Private development documentation and AI workflow state.
+/docs/*
+*.md
+*.MD
+!/README.md
+/CLAUDE.md
+/.agents/
+/.codex/
+/.claude/
+
+# Public technical guides are the documentation exception.
+!/docs/reference/
+!/docs/reference/**
+
+# Portable contributor guidance and selected shareable skills.
+!/AGENTS.md
+!/CONTRIBUTING.md
+!/ROADMAP.md
+!/NOTICE.md
+!/skills/
+!/skills/**
+!/tests/fixtures/README.md
+/.venv/
+/Mods/
+
+# Local original-byte research evidence is not published, including history.
+/tests/fixtures/*originals.json
+/tests/fixtures/engine_*.json
+/tests/fixtures/*fragments.json
+/tests/fixtures/actor_cleanup_profiles.json
+/tests/fixtures/native_crt_handler_pins.json
+/tests/fixtures/status_getter_dispatchers.json
+!/tests/fixtures/actor_cleanup_originals.json

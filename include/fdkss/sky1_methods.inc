@@ -1,0 +1,5 @@
+// Verified character actor virtual getters: X(name, slot byte offset, RVA, result)
+FDKSS_METHOD(type_name, 0x08, 0x1b78b0, FDKSS_STRING)
+FDKSS_METHOD(type_id, 0x10, 0x1b78c0, FDKSS_INTEGER)
+FDKSS_METHOD(type_flags, 0x18, 0x1b78d0, FDKSS_INTEGER)
+FDKSS_METHOD(set_native_state_byte, 0x88, 0x480b70, FDKSS_NIL)

@@ -1,0 +1,7 @@
+# Tested external kuro_mdl_tool environment; upstream source remains external.
+blowfish==0.6.1
+zstandard==0.25.0
+numpy==2.5.4
+xxhash==4.0.1
+pyquaternion==0.9.9
+pygltflib==1.16.5

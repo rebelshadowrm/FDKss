@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "schema": {
+    "char_id": "s64",
+    "unknown_text_08": "ptr_str_utf8",
+    "start_flags": "arr_u16",
+    "unknown_1c": "u32",
+    "end_flags": "arr_u16",
+    "position_x": "f32",
+    "position_y": "f32",
+    "position_z": "f32",
+    "heading": "f32",
+    "interaction_range": "f32",
+    "unknown_40": "u32",
+    "unknown_44": "f32",
+    "unknown_48": "f32",
+    "unknown_4c": "f32",
+    "text_50": "ptr_str_utf8",
+    "text_58": "ptr_str_utf8",
+    "animation_function": "ptr_str_utf8",
+    "unknown_68": "u32",
+    "unknown_6c": "u32",
+    "talk_function": "ptr_str_utf8",
+    "text_78": "ptr_str_utf8",
+    "unknown_80": "u32",
+    "unknown_84": "u32",
+    "unknown_flags_88": "arr_u16",
+    "unknown_94": "u32"
+  }
+}

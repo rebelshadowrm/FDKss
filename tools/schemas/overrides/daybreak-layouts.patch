@@ -1,0 +1,220 @@
+From 801315b51bbc5933e9f3974fbfffb64e99726ea2 Mon Sep 17 00:00:00 2001
+From: FDKss Offline Integration <offline@localhost>
+Date: Sun, 11 Oct 2026 02:10:13 -0500
+Subject: [PATCH] fix: pin installed Daybreak table layouts
+
+---
+ FDKss-layout-provenance.json     | 17 +++++++
+ KuroTools-LICENSE.txt            | 21 +++++++++
+ ed9_Daybreak1/ItemTableData.json | 79 +++++++++++++++++++++-----------
+ ed9_Daybreak2/NPCParam.json      | 60 ++++++++++++------------
+ 4 files changed, 120 insertions(+), 57 deletions(-)
+ create mode 100644 FDKss-layout-provenance.json
+ create mode 100644 KuroTools-LICENSE.txt
+
+diff --git a/FDKss-layout-provenance.json b/FDKss-layout-provenance.json
+new file mode 100644
+index 0000000..063c852
+--- /dev/null
++++ b/FDKss-layout-provenance.json
+@@ -0,0 +1,17 @@
++{
++  "upstream_base": "7a545e7205b2067990005d15518285456e66d1c9",
++  "purpose": "Installed PC Daybreak item/NPC serialized layout corrections; no gameplay meaning inferred",
++  "ItemTableData": {
++    "source": "nnguyen259/KuroTools",
++    "revision": "8b568364232d6a51b03b85b7ed7723f6a1218750",
++    "variant": "FALCOM_PS4 explicitly tagged Kuro1; installed 248-byte layout independently checked",
++    "license": "MIT KuroTools-LICENSE.txt"
++  },
++  "NPCParam": {
++    "source": "FDKss bounded independent inspection",
++    "tables": 49,
++    "records": 9190,
++    "record_size": 152,
++    "unknown_labels": "neutral; no semantic approval"
++  }
++}
+diff --git a/KuroTools-LICENSE.txt b/KuroTools-LICENSE.txt
+new file mode 100644
+index 0000000..dca284f
+--- /dev/null
++++ b/KuroTools-LICENSE.txt
+@@ -0,0 +1,21 @@
++MIT License
++
++Copyright (c) 2022 Nhan Nguyen
++
++Permission is hereby granted, free of charge, to any person obtaining a copy
++of this software and associated documentation files (the "Software"), to deal
++in the Software without restriction, including without limitation the rights
++to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
++copies of the Software, and to permit persons to whom the Software is
++furnished to do so, subject to the following conditions:
++
++The above copyright notice and this permission notice shall be included in all
++copies or substantial portions of the Software.
++
++THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
++IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
++FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
++AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
++LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
++OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
++SOFTWARE.
+diff --git a/ed9_Daybreak1/ItemTableData.json b/ed9_Daybreak1/ItemTableData.json
+index ab5733a..5024718 100644
+--- a/ed9_Daybreak1/ItemTableData.json
++++ b/ed9_Daybreak1/ItemTableData.json
+@@ -1,27 +1,54 @@
+ {
+-    "version": 1,
+-    "schema": {
+-        "item_id": "u32",
+-        "character_restriction": "u32",
+-        "text1": "ptr_str_utf8",
+-        "text2": "ptr_str_utf8",
+-        "category": "u8",
+-        "subcategory": "u8",
+-        "unknown": "d10",
+-        "float1": "f32",
+-        "float2": "f32",
+-        "effects": {
+-            "repeat": 5,
+-            "type": "ref_Effect"
+-        },
+-        "float3": "f32",
+-        "stats": {
+-            "type": "ref_StatArrayDaybreak"
+-        },
+-        "stack_size": "u32",
+-        "price": "u32",
+-        "animation": "ptr_str_utf8",
+-        "name": "ptr_str_utf8",
+-        "description": "ptr_str_utf8"
+-    }
+-}
+\ No newline at end of file
++  "version": 1,
++  "schema": {
++    "id": "u32",
++    "character_restriction": "s32",
++    "text1": "ptr_str_utf8",
++    "text2": "ptr_str_utf8",
++    "category": "u8",
++    "subcategory": "u8",
++    "item_icon": "u16",
++    "effect_icon": "u16",
++    "element": "u16",
++    "int1": "u32",
++    "float1": "f32",
++    "float2": "f32",
++    "effects": {
++      "repeat": 5,
++      "type": {
++        "id": "u32",
++        "value1": "u32",
++        "value2": "u32",
++        "value3": "u32"
++      }
++    },
++    "float3": "f32",
++    "hp": "u32",
++    "ep": "u32",
++    "patk": "u32",
++    "pdef": "u32",
++    "matk": "u32",
++    "mdef": "u32",
++    "str": "u32",
++    "def": "u32",
++    "ats": "u32",
++    "adf": "u32",
++    "agl": "u32",
++    "dex": "u32",
++    "hit": "u32",
++    "eva": "u32",
++    "meva": "u32",
++    "crit": "u32",
++    "spd": "u32",
++    "mov": "u32",
++    "stack_size": "u32",
++    "price": "u32",
++    "animation": "ptr_str_utf8",
++    "name": "ptr_str_utf8",
++    "description": "ptr_str_utf8",
++    "int2": "u32",
++    "int3": "u32",
++    "arts_id": "u32",
++    "int4": "u32"
++  }
++}
+diff --git a/ed9_Daybreak2/NPCParam.json b/ed9_Daybreak2/NPCParam.json
+index 7a598b2..549d867 100644
+--- a/ed9_Daybreak2/NPCParam.json
++++ b/ed9_Daybreak2/NPCParam.json
+@@ -1,32 +1,30 @@
+ {
+-    "version": 1,
+-    "schema": {
+-        "char_id": "s64",
+-        "start_scena_flag": "arr_u16",
+-        "int1": "u32",
+-        "end_scena_flag": "arr_u16",
+-        "int2": "u32",
+-        "map": "ptr_str_utf8",
+-        "X": "f32",
+-        "Y": "f32",
+-        "Z": "f32",
+-        "orientation_angle": "f32",
+-        "range_interaction": "f32",
+-        "int": "u32",
+-        "flt7": "f32",
+-        "flt8": "f32",
+-        "flt9": "f32",
+-        "flt10": "f32",
+-        "text1": "ptr_str_utf8",
+-        "talk_setting_function": "ptr_str_utf8",
+-        "first_animation_function": "ptr_str_utf8",
+-        "int3": "u32",
+-        "int4": "u32",
+-        "talk_function": "ptr_str_utf8",
+-        "text2": "ptr_str_utf8",
+-        "int5": "u32",
+-        "int6": "u32",
+-        "int7": "u32",
+-        "int8": "u32"
+-    }
+-}
+\ No newline at end of file
++  "version": 1,
++  "schema": {
++    "char_id": "s64",
++    "unknown_text_08": "ptr_str_utf8",
++    "start_flags": "arr_u16",
++    "unknown_1c": "u32",
++    "end_flags": "arr_u16",
++    "position_x": "f32",
++    "position_y": "f32",
++    "position_z": "f32",
++    "heading": "f32",
++    "interaction_range": "f32",
++    "unknown_40": "u32",
++    "unknown_44": "f32",
++    "unknown_48": "f32",
++    "unknown_4c": "f32",
++    "text_50": "ptr_str_utf8",
++    "text_58": "ptr_str_utf8",
++    "animation_function": "ptr_str_utf8",
++    "unknown_68": "u32",
++    "unknown_6c": "u32",
++    "talk_function": "ptr_str_utf8",
++    "text_78": "ptr_str_utf8",
++    "unknown_80": "u32",
++    "unknown_84": "u32",
++    "unknown_flags_88": "arr_u16",
++    "unknown_94": "u32"
++  }
++}
+-- 
+2.53.0.windows.2
+

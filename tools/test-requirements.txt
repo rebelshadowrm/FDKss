@@ -1,0 +1,3 @@
+-r caller-discovery-requirements.txt
+-r peer-tool-requirements.txt
+Pillow==12.3.0

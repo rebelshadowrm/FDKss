@@ -1,0 +1,2453 @@
+[
+  {
+    "command": 20,
+    "arguments": [
+      1073741824
+    ],
+    "result": 2147483648
+  },
+  {
+    "command": 20,
+    "arguments": [
+      1073741825
+    ],
+    "result": 2413157033
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2147483647
+    ],
+    "result": 2950027945
+  },
+  {
+    "command": 20,
+    "arguments": [
+      1610612735
+    ],
+    "result": 2410269944
+  },
+  {
+    "command": 20,
+    "arguments": [
+      1610612736
+    ],
+    "result": 2947140856
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2147483648
+    ],
+    "result": 2147483648
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2684354560
+    ],
+    "result": 2684354560
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2392900763
+    ],
+    "result": 2392900762
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2929771675
+    ],
+    "result": 2929771674
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2399729090
+    ],
+    "result": 2399729045
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2936600002
+    ],
+    "result": 2936599957
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2411724800
+    ],
+    "result": 2411552209
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2948595712
+    ],
+    "result": 2948423121
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2412921846
+    ],
+    "result": 2412593468
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2415018998
+    ],
+    "result": 2413821952
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2417116150
+    ],
+    "result": 2370445846
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2953987062
+    ],
+    "result": 2907316758
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2483372222
+    ],
+    "result": 2947278048
+  },
+  {
+    "command": 20,
+    "arguments": [
+      3020243134
+    ],
+    "result": 2410407136
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2622651570
+    ],
+    "result": 2411744732
+  },
+  {
+    "command": 20,
+    "arguments": [
+      3159522482
+    ],
+    "result": 2948615644
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2682253927
+    ],
+    "result": 2412900979
+  },
+  {
+    "command": 20,
+    "arguments": [
+      3219124839
+    ],
+    "result": 2949771891
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2961252587
+    ],
+    "result": 2950650729
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2962319634
+    ],
+    "result": 2412792689
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2426933482
+    ],
+    "result": 2950691892
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2961084986
+    ],
+    "result": 2407613696
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2426057464
+    ],
+    "result": 2413136871
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2961236386
+    ],
+    "result": 2950669612
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2424122317
+    ],
+    "result": 2949594738
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2426702870
+    ],
+    "result": 2949615626
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2421842730
+    ],
+    "result": 2413386573
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2424652937
+    ],
+    "result": 2947909017
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2425362844
+    ],
+    "result": 2949972890
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2961600224
+    ],
+    "result": 2949308073
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2426216136
+    ],
+    "result": 2950651347
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2425635506
+    ],
+    "result": 2413450117
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2423972973
+    ],
+    "result": 2950363423
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2422030813
+    ],
+    "result": 2410747996
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2960889746
+    ],
+    "result": 2413816898
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2963847173
+    ],
+    "result": 2409482519
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2427023682
+    ],
+    "result": 2413542074
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2426414138
+    ],
+    "result": 2413791975
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2427091914
+    ],
+    "result": 2944713501
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2427269217
+    ],
+    "result": 2412419155
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2425525118
+    ],
+    "result": 2410094776
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2963644003
+    ],
+    "result": 2408119964
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2962850740
+    ],
+    "result": 2949948386
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2961833550
+    ],
+    "result": 2413460623
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2958828424
+    ],
+    "result": 2949113883
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2426916531
+    ],
+    "result": 2950187871
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2961383724
+    ],
+    "result": 2411898292
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2963127098
+    ],
+    "result": 2413366592
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2423401195
+    ],
+    "result": 2941391412
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2963547356
+    ],
+    "result": 2403341407
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2424726211
+    ],
+    "result": 2412286711
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2962844905
+    ],
+    "result": 2949722604
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2962930647
+    ],
+    "result": 2949926084
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2964153101
+    ],
+    "result": 2947138341
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2427039590
+    ],
+    "result": 2413792738
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2426130329
+    ],
+    "result": 2944246229
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2964196595
+    ],
+    "result": 2413145609
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2424658207
+    ],
+    "result": 2947285584
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2964241985
+    ],
+    "result": 2412521511
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2962798070
+    ],
+    "result": 2945012232
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2964266679
+    ],
+    "result": 2399143850
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2425697990
+    ],
+    "result": 2408653198
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2425489134
+    ],
+    "result": 2946266383
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2962817021
+    ],
+    "result": 2948059877
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2426428282
+    ],
+    "result": 2413619443
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2952661876
+    ],
+    "result": 2950411896
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2962531422
+    ],
+    "result": 2949403318
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2424860515
+    ],
+    "result": 2410840391
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2960625469
+    ],
+    "result": 2948383099
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2424475922
+    ],
+    "result": 2936374943
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2423064266
+    ],
+    "result": 2948584901
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2957894156
+    ],
+    "result": 2413357277
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2963806685
+    ],
+    "result": 2413804427
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2963321761
+    ],
+    "result": 2948762276
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2959633166
+    ],
+    "result": 2950599613
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2426891379
+    ],
+    "result": 2946939991
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2956816387
+    ],
+    "result": 2950629321
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2961716970
+    ],
+    "result": 2948956703
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2963570289
+    ],
+    "result": 2412428427
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2426981320
+    ],
+    "result": 2943201805
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2427413606
+    ],
+    "result": 2411771786
+  },
+  {
+    "command": 20,
+    "arguments": [
+      2962881969
+    ],
+    "result": 2950658292
+  },
+  {
+    "command": 21,
+    "arguments": [
+      1073741824
+    ],
+    "result": 2413821952
+  },
+  {
+    "command": 21,
+    "arguments": [
+      1073741825
+    ],
+    "result": 2411893840
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2147483647
+    ],
+    "result": 2411893840
+  },
+  {
+    "command": 21,
+    "arguments": [
+      1610612735
+    ],
+    "result": 2950462906
+  },
+  {
+    "command": 21,
+    "arguments": [
+      1610612736
+    ],
+    "result": 2950462906
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2147483648
+    ],
+    "result": 2413821952
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2684354560
+    ],
+    "result": 2413821952
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2392900763
+    ],
+    "result": 2413821950
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2929771675
+    ],
+    "result": 2413821950
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2399729090
+    ],
+    "result": 2413821742
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2936600002
+    ],
+    "result": 2413821742
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2411724800
+    ],
+    "result": 2413308496
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2948595712
+    ],
+    "result": 2413308496
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2412921846
+    ],
+    "result": 2412593469
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2415018998
+    ],
+    "result": 2368348694
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2417116150
+    ],
+    "result": 2950692864
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2953987062
+    ],
+    "result": 2950692864
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2483372222
+    ],
+    "result": 2413567625
+  },
+  {
+    "command": 21,
+    "arguments": [
+      3020243134
+    ],
+    "result": 2413567625
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2622651570
+    ],
+    "result": 2950119352
+  },
+  {
+    "command": 21,
+    "arguments": [
+      3159522482
+    ],
+    "result": 2950119352
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2682253927
+    ],
+    "result": 2949121056
+  },
+  {
+    "command": 21,
+    "arguments": [
+      3219124839
+    ],
+    "result": 2949121056
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2427579037
+    ],
+    "result": 2412840895
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2960873305
+    ],
+    "result": 2945217529
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2962423376
+    ],
+    "result": 2412758931
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2424842038
+    ],
+    "result": 2949739966
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2426898629
+    ],
+    "result": 2950120197
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2424203554
+    ],
+    "result": 2413729291
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2426449931
+    ],
+    "result": 2949964738
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2964437016
+    ],
+    "result": 2411389767
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2960530037
+    ],
+    "result": 2947263152
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2425104070
+    ],
+    "result": 2413762083
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2425246405
+    ],
+    "result": 2949419040
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2426705184
+    ],
+    "result": 2949078064
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2955640639
+    ],
+    "result": 2412408232
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2424886789
+    ],
+    "result": 2950692817
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2963327766
+    ],
+    "result": 2950382934
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2961954331
+    ],
+    "result": 2413777360
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2963483714
+    ],
+    "result": 2410328546
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2963689923
+    ],
+    "result": 2410250802
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2414164683
+    ],
+    "result": 2410854024
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2426971240
+    ],
+    "result": 2413495764
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2424603304
+    ],
+    "result": 2410658047
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2426753623
+    ],
+    "result": 2412682402
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2963610092
+    ],
+    "result": 2410603694
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2425087952
+    ],
+    "result": 2413809595
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2420749714
+    ],
+    "result": 2948755791
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2962989399
+    ],
+    "result": 2950685309
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2427170052
+    ],
+    "result": 2413058495
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2423488299
+    ],
+    "result": 2413051910
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2955331765
+    ],
+    "result": 2407701576
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2963923428
+    ],
+    "result": 2948515302
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2962875684
+    ],
+    "result": 2409166365
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2964376427
+    ],
+    "result": 2950609398
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2960233704
+    ],
+    "result": 2413579170
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2962897925
+    ],
+    "result": 2944056937
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2422092038
+    ],
+    "result": 2950639232
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2964206551
+    ],
+    "result": 2946654953
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2409124902
+    ],
+    "result": 2413720827
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2424632461
+    ],
+    "result": 2412714139
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2962875896
+    ],
+    "result": 2409113434
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2960047427
+    ],
+    "result": 2945510553
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2961606207
+    ],
+    "result": 2412472838
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2426849808
+    ],
+    "result": 2948899941
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2426845208
+    ],
+    "result": 2948194602
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2961670408
+    ],
+    "result": 2946196355
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2955868660
+    ],
+    "result": 2413472426
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2422988602
+    ],
+    "result": 2950686485
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2961481384
+    ],
+    "result": 2411489012
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2962400676
+    ],
+    "result": 2413520331
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2418425977
+    ],
+    "result": 2405652684
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2427173117
+    ],
+    "result": 2413268850
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2426436719
+    ],
+    "result": 2948760132
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2962689634
+    ],
+    "result": 2405961202
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2962018388
+    ],
+    "result": 2412453684
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2426403226
+    ],
+    "result": 2411009482
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2960434524
+    ],
+    "result": 2410646442
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2961300081
+    ],
+    "result": 2949695075
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2961540972
+    ],
+    "result": 2413761404
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2426406827
+    ],
+    "result": 2410349673
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2963402021
+    ],
+    "result": 2410077124
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2426794842
+    ],
+    "result": 2413302527
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2426813766
+    ],
+    "result": 2411480769
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2960816609
+    ],
+    "result": 2948891310
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2963616658
+    ],
+    "result": 2411910295
+  },
+  {
+    "command": 21,
+    "arguments": [
+      2427316103
+    ],
+    "result": 2949699449
+  },
+  {
+    "command": 22,
+    "arguments": [
+      1073741824
+    ],
+    "result": 2147483648
+  },
+  {
+    "command": 22,
+    "arguments": [
+      1073741825
+    ],
+    "result": 2414990920
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2147483647
+    ],
+    "result": 2951861832
+  },
+  {
+    "command": 22,
+    "arguments": [
+      1610612735
+    ],
+    "result": 2947299761
+  },
+  {
+    "command": 22,
+    "arguments": [
+      1610612736
+    ],
+    "result": 2410428849
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2147483648
+    ],
+    "result": 2147483648
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2684354560
+    ],
+    "result": 2684354560
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2392900763
+    ],
+    "result": 2392900763
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2929771675
+    ],
+    "result": 2929771675
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2399729090
+    ],
+    "result": 2399729179
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2936600002
+    ],
+    "result": 2936600091
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2411724800
+    ],
+    "result": 2411919006
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2948595712
+    ],
+    "result": 2948789918
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2412921846
+    ],
+    "result": 2413821950
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2415018998
+    ],
+    "result": 2458950552
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2417116150
+    ],
+    "result": 2907316758
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2953987062
+    ],
+    "result": 2370445846
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2483372222
+    ],
+    "result": 2947463736
+  },
+  {
+    "command": 22,
+    "arguments": [
+      3020243134
+    ],
+    "result": 2410592824
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2622651570
+    ],
+    "result": 2948950978
+  },
+  {
+    "command": 22,
+    "arguments": [
+      3159522482
+    ],
+    "result": 2412080066
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2682253927
+    ],
+    "result": 2951213322
+  },
+  {
+    "command": 22,
+    "arguments": [
+      3219124839
+    ],
+    "result": 2414342410
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2422991467
+    ],
+    "result": 2940345569
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2962692269
+    ],
+    "result": 2420217733
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2427186723
+    ],
+    "result": 2943714529
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2963104181
+    ],
+    "result": 2420179167
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2962747138
+    ],
+    "result": 2412590725
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2962837898
+    ],
+    "result": 2950564376
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2962925900
+    ],
+    "result": 2415208732
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2963664743
+    ],
+    "result": 2948640253
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2963880404
+    ],
+    "result": 2950568682
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2963345212
+    ],
+    "result": 2944763962
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2424025551
+    ],
+    "result": 2969179258
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2964454593
+    ],
+    "result": 2412235841
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2423615292
+    ],
+    "result": 2963567320
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2425604985
+    ],
+    "result": 2423272721
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2420121687
+    ],
+    "result": 2955710980
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2425684156
+    ],
+    "result": 2947989722
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2424989144
+    ],
+    "result": 2426703992
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2964322587
+    ],
+    "result": 2420006898
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2426534876
+    ],
+    "result": 2953019579
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2959386607
+    ],
+    "result": 2412037845
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2421400677
+    ],
+    "result": 2410537280
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2425799916
+    ],
+    "result": 2418395353
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2963788946
+    ],
+    "result": 2952864096
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2426594612
+    ],
+    "result": 2412989080
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2424903177
+    ],
+    "result": 2409631139
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2420301613
+    ],
+    "result": 2950080649
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2427546364
+    ],
+    "result": 2420113439
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2962044831
+    ],
+    "result": 2953696994
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2427210274
+    ],
+    "result": 2412587738
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2955902967
+    ],
+    "result": 2410551787
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2964304718
+    ],
+    "result": 2953055127
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2963032432
+    ],
+    "result": 2949347180
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2418053462
+    ],
+    "result": 2414533135
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2963881379
+    ],
+    "result": 2950755573
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2955126811
+    ],
+    "result": 2954710368
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2962024927
+    ],
+    "result": 2951415144
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2425090905
+    ],
+    "result": 2940239384
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2964069841
+    ],
+    "result": 2946708096
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2964400453
+    ],
+    "result": 2951425674
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2416456868
+    ],
+    "result": 2949548608
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2964122345
+    ],
+    "result": 2417213575
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2963777354
+    ],
+    "result": 2950542348
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2963529672
+    ],
+    "result": 2411964636
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2424877765
+    ],
+    "result": 2944709372
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2962283147
+    ],
+    "result": 2419188734
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2945075844
+    ],
+    "result": 2945101335
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2964229480
+    ],
+    "result": 2416121943
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2963959980
+    ],
+    "result": 2941955960
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2962064123
+    ],
+    "result": 2960144602
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2959198996
+    ],
+    "result": 2953302066
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2415640486
+    ],
+    "result": 2954126994
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2424773449
+    ],
+    "result": 2419100589
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2961017495
+    ],
+    "result": 2412784808
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2960993075
+    ],
+    "result": 2414025058
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2425054597
+    ],
+    "result": 2949281054
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2426598982
+    ],
+    "result": 2413923238
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2426272833
+    ],
+    "result": 2950966118
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2423587660
+    ],
+    "result": 2418544601
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2960702066
+    ],
+    "result": 2943228996
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2964083087
+    ],
+    "result": 2949839179
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2963946084
+    ],
+    "result": 2410753524
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2955123448
+    ],
+    "result": 2954607435
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2420918811
+    ],
+    "result": 2958294040
+  },
+  {
+    "command": 22,
+    "arguments": [
+      2962042404
+    ],
+    "result": 2953373593
+  },
+  {
+    "command": 24,
+    "arguments": [
+      1073741825,
+      1073741824
+    ],
+    "result": 2413821952
+  },
+  {
+    "command": 24,
+    "arguments": [
+      1073741825,
+      1073741825
+    ],
+    "result": 2413821952
+  },
+  {
+    "command": 24,
+    "arguments": [
+      1073741826,
+      1073741827
+    ],
+    "result": 2420113408
+  },
+  {
+    "command": 24,
+    "arguments": [
+      1073741826,
+      2147483645
+    ],
+    "result": 2407530496
+  },
+  {
+    "command": 24,
+    "arguments": [
+      1073741824,
+      1073741825
+    ],
+    "result": 2147483648
+  },
+  {
+    "command": 24,
+    "arguments": [
+      1073741824,
+      1073741827
+    ],
+    "result": 2147483648
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2147483646,
+      1073741826
+    ],
+    "result": 2418016256
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2147483646,
+      1073741827
+    ],
+    "result": 2956984320
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2147483646,
+      2147483646
+    ],
+    "result": 2409627648
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2411724800,
+      2411724800
+    ],
+    "result": 2412593468
+  },
+  {
+    "command": 24,
+    "arguments": [
+      1073741826,
+      2411724800
+    ],
+    "result": 2414690620
+  },
+  {
+    "command": 24,
+    "arguments": [
+      1073741834,
+      1073741827
+    ],
+    "result": 2434695168
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2399729090,
+      1073741826
+    ],
+    "result": 2385800644
+  },
+  {
+    "command": 24,
+    "arguments": [
+      1073741924,
+      2411724800
+    ],
+    "result": 2420637696
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2418587926,
+      2951393773
+    ],
+    "result": 2407162595
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2420348083,
+      2953125957
+    ],
+    "result": 2398316327
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2411470939,
+      2415762277
+    ],
+    "result": 2409350484
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2416365390,
+      2416750137
+    ],
+    "result": 2421129166
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2419129459,
+      2414872593
+    ],
+    "result": 2421995399
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2415310950,
+      2414014024
+    ],
+    "result": 2415491561
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2413084695,
+      2951408228
+    ],
+    "result": 2414442631
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2419092847,
+      2951134219
+    ],
+    "result": 2407130846
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2411818667,
+      2952512931
+    ],
+    "result": 2417348635
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2419923819,
+      2947499586
+    ],
+    "result": 2411489350
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2420180701,
+      2412367384
+    ],
+    "result": 2417985481
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2418735447,
+      2415105831
+    ],
+    "result": 2421957499
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2419569247,
+      2942587808
+    ],
+    "result": 2413282477
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2419864904,
+      2414430888
+    ],
+    "result": 2421561347
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2413044568,
+      2415467751
+    ],
+    "result": 2412536823
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2413653281,
+      2415983248
+    ],
+    "result": 2413481704
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2418396846,
+      2948972102
+    ],
+    "result": 2410887250
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2420251750,
+      2415991923
+    ],
+    "result": 2427073121
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2416324158,
+      2415379820
+    ],
+    "result": 2418306280
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2417070385,
+      2950550053
+    ],
+    "result": 2410344575
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2420126309,
+      2416110891
+    ],
+    "result": 2427416715
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2418139143,
+      2950804492
+    ],
+    "result": 2409102499
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2420585103,
+      2414450366
+    ],
+    "result": 2422658608
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2420462783,
+      2416531646
+    ],
+    "result": 2431132627
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2419797459,
+      2416551828
+    ],
+    "result": 2429403941
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2416286078,
+      2415705871
+    ],
+    "result": 2418573509
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2414787568,
+      2416250382
+    ],
+    "result": 2416342726
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2418661295,
+      2414359557
+    ],
+    "result": 2420109859
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2419089664,
+      2414679942
+    ],
+    "result": 2421326511
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2417486809,
+      2951086482
+    ],
+    "result": 2409228768
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2415956733,
+      2953065715
+    ],
+    "result": 2408790978
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2419986464,
+      2413199506
+    ],
+    "result": 2418920148
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2417239849,
+      2953299716
+    ],
+    "result": 2404795528
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2417898313,
+      2947725342
+    ],
+    "result": 2412076743
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2416689995,
+      2953336533
+    ],
+    "result": 2405990930
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2414493252,
+      2950880958
+    ],
+    "result": 2412726747
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2420474328,
+      2413127295
+    ],
+    "result": 2419312493
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2417060272,
+      2415515499
+    ],
+    "result": 2419944060
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2420409484,
+      2415058006
+    ],
+    "result": 2424413519
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2410469724,
+      2411589291
+    ],
+    "result": 2412152808
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2420394146,
+      2953022090
+    ],
+    "result": 2398952706
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2420294492,
+      2953270864
+    ],
+    "result": 2397584679
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2411839838,
+      2952509236
+    ],
+    "result": 2417281953
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2418665046,
+      2416883701
+    ],
+    "result": 2428430783
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2419200327,
+      2951904514
+    ],
+    "result": 2404955660
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2413065791,
+      2406746079
+    ],
+    "result": 2413738068
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2407587407,
+      2416747460
+    ],
+    "result": 2396347777
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2418343010,
+      2951805626
+    ],
+    "result": 2406557109
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2414741995,
+      2953059022
+    ],
+    "result": 2411222105
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2416127258,
+      2952670188
+    ],
+    "result": 2409064218
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2420048604,
+      2410249872
+    ],
+    "result": 2415819261
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2419220341,
+      2947191651
+    ],
+    "result": 2411902005
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2414894525,
+      2411906194
+    ],
+    "result": 2414349526
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2416330556,
+      2415940012
+    ],
+    "result": 2418972534
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2420130790,
+      2414170305
+    ],
+    "result": 2421007282
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2420547563,
+      2952905619
+    ],
+    "result": 2399286850
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2416227577,
+      2950740833
+    ],
+    "result": 2411118171
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2419002405,
+      2953442701
+    ],
+    "result": 2399621098
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2420352347,
+      2414282554
+    ],
+    "result": 2421793102
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2420349458,
+      2413826203
+    ],
+    "result": 2420359820
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2420209864,
+      2951265454
+    ],
+    "result": 2405581242
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2419483546,
+      2950658883
+    ],
+    "result": 2407939697
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2420137977,
+      2953105096
+    ],
+    "result": 2399230782
+  },
+  {
+    "command": 24,
+    "arguments": [
+      2416046785,
+      2413405002
+    ],
+    "result": 2415853856
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "scope": "Local original-byte research fixtures, excluded from public Git tree/history. Required only for opt-in private evidence checks.",
+  "files": {
+    "actor_cleanup_caller_originals.json": "249ff8f9d950410c6c221665f36c5bb0406a32bad8dc51849808b984d67ad39c",
+    "actor_cleanup_profiles.json": "d3e335a2910893df0c152ff2bf11394b82f636882660f8338d2e167d2e1c86d5",
+    "actor_destructor_originals.json": "0dd8af35ec80f77432e98bbd2b1a5ec09b62f6f4fb620824474d154efc8b24d5",
+    "animation_binding_fragments.json": "3270829f0d3928113c229f14af2ce8b1462c254cc53097902095887710964371",
+    "battle_collection_originals.json": "e0860c2f88b8a5fc29d89d96e54dfb429af817f45b2ea89c3047c4dfda2648da",
+    "battle_root_originals.json": "12709fbe1da8992d9ed854d248ef20e2bfab20a1048db70f56b06201bfa2ea38",
+    "battle_unwind_originals.json": "1f1f753d213ed177e434337dc41fb707d9900f3398bb618e770de33a72cc0a0c",
+    "condition_reader_fragments.json": "f94235ede5a1102d4a865bf2d3409cc5410199597690d946c3042f2c27153350",
+    "engine_call_originals.json": "e7e22337f189beaa212b564f37e24ad3386c48f9cc5647c96c28a14708760630",
+    "engine_cleanup_originals.json": "40c6d6b7ce045bcfbbf9aaa6573cbf9da3d85feb8fa2e288996dc652cb4e3337",
+    "engine_getter_originals.json": "04def3f8421882fad5d294eff4eb71ef9d765a3d6d2e4a4a2a056be1217247af",
+    "engine_global_jobs_horizon.json": "53f36fc99d776f5ef061fcf289ded0c2f9c4c21cc526d8be1ec80629679ef3c8",
+    "engine_global_jobs_pn.json": "42fccb59667e07804127e709c0a4237a3533dc9ff822a513ae6ff52af8bd10f8",
+    "engine_global_jobs_ysx.json": "b1478f77e624bdb2cbc12c61a9737bd370e2249726e62b6b9c2f518d69681059",
+    "engine_ownership_contrasts.json": "4efe161d13738eecd492a0f460f7b46c69ef4071df6b0fc08e785d504682d930",
+    "engine_ownership_originals.json": "ea4b9079b97559b8c8ff7e7148a0e5fe5c11b02857bc3a1b1078e3af0bfd972c",
+    "engine_scheduler_contrasts.json": "55fd916e3df93be1bbca9a77af85711a99758acbafe4a8514249849a26e6ec24",
+    "engine_scheduler_originals.json": "50dea8af8efe289b684aaf04f19a1f83d48ad2dd9edd4350e6c4162f745db3d3",
+    "engine_thread_originals.json": "29387426ec8f6c0208909ff802c726dd98fd3b30f650d7c2561fd05f8fda5aed",
+    "native_crt_handler_pins.json": "ba7bce741d8571a20638ee35fcd7b032e44c0d4dbda414dfb5c2dbe0d39319db",
+    "native_scalar_originals.json": "64a4d87076b4ad5a5d379f4015a8dcb04c9e968fc9d9ce4db5f1130a2ccb1d03",
+    "resource_hook_originals.json": "db79f16e01aace8cd80fc47851bea4e616441ace0faaa15ec9ed2505dac9a4c2",
+    "status_getter_dispatchers.json": "eb4eff59821f8a355aaf9e74386bd5d66dad189293ade9c490f1904737f8d171"
+  }
+}
